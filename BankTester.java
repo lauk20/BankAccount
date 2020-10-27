@@ -9,5 +9,6 @@ public class BankTester{
     System.out.println(A.getBalance());
     System.out.println(A.withdraw(1000));
     System.out.println(A.getBalance());
+    System.out.println(A.toString());
   }
 }
