@@ -7,5 +7,7 @@ public class BankTester{
     System.out.println(A.getPassword());
     System.out.println(A.deposit(1000));
     System.out.println(A.getBalance());
+    System.out.println(A.withdraw(1000));
+    System.out.println(A.getBalance());
   }
 }
