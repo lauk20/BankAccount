@@ -8,9 +8,10 @@ public class BankAccount{
     balance = 0;
     accountID = ID;
     password = pass;
+  }
 
-    System.out.println(ID);
-    System.out.println(pass);
+  public double getBalance(){
+    return balance;
   }
 
 }
