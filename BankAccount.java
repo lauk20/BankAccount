@@ -14,4 +14,8 @@ public class BankAccount{
     return balance;
   }
 
+  public int getAccountID(){
+    return accountID;
+  }
+
 }
